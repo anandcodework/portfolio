@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/open-sans": "^5.1.0",
+    "@fontsource/roboto": "^5.1.0",
     "framer-motion": "^11.12.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

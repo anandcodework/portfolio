@@ -7,11 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": "#121212",
+        "primary": "#252c37",
         "secondary": "#e0e0e0",
         "third": "#fefefe",
         "fourth": "#00FF9C"
       },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+        openSans: ['Open Sans', 'sans-serif'],
+      },
+      
     },
   },
   plugins: [],

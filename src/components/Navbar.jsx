@@ -2,8 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { MdMenu, MdClose } from 'react-icons/md';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+// Importing Google Fonts
+import '@fontsource/roboto';  // Example: Roboto font
+import '@fontsource/open-sans';  // Example: Open Sans font
 
-function Navbar() {
+export default function Navbar() {
   const NavbarMenu = [
     { id: 1, title: 'Home', link: '/' },
     { id: 2, title: 'About', link: '/about' },
@@ -41,16 +44,16 @@ function Navbar() {
 
   return (
     <>
-      <nav className="bg-primary fixed top-0 z-10 w-full shadow-md">
+      <nav className="bg-primary top-0 z-10 w-full shadow-md px-3 font-roboto">
         <div className="container mx-auto">
           <div className="flex justify-between items-center py-3">
             {/* Logo section */}
             <div className="text-xl lg:text-2xl font-bold flex items-center ">
               <Link to="/" className="flex items-center ">
                 <img src="src/assets/Anand Logo.png" className="rounded-full w-14 h-14 mx-2" alt="logo" />
-                <span className="text-fourth">
-                 {"<anandMaurya/>"}
-                  </span>
+                <span className="text-fourth font-mono">
+                  {"<anandMaurya/>"}
+                </span>
               </Link>
             </div>
 
@@ -62,8 +65,8 @@ function Navbar() {
                     <Link
                       to={item.link}
                       className={`relative group uppercase hover:text-fourth no-underline tracking-wide inline-block py-3 px-5 transition-colors duration-300 ${location.pathname === item.link
-                          ? "text-fourth"
-                          : 'text-third'
+                        ? "text-fourth"
+                        : 'text-third'
                         }`}
                     >
                       {item.title}
@@ -106,11 +109,10 @@ function Navbar() {
                       <Link
                         to={item.link}
                         onClick={handleMenuItemClick}
-                        className={`ml-[40%] relative group hover:text-fourth uppercase no-underline tracking-wide inline-block py-3 px-5 items-center transition-colors duration-300 text-center ${
-                          location.pathname === item.link
+                        className={`ml-[40%] relative group hover:text-fourth uppercase no-underline tracking-wide inline-block py-3 px-5 items-center transition-colors duration-300 text-center ${location.pathname === item.link
                             ? 'text-fourth'
                             : 'text-third'
-                        }`}
+                          }`}
                       >
                         {item.title}
                         <span className="block absolute bottom-0 left-1/2 w-0 h-0.5 bg-fourth transition-all duration-200 ease-out group-hover:w-full group-hover:left-0"></span>
@@ -121,8 +123,8 @@ function Navbar() {
                 {/* Hire Button */}
                 <button className="ml-8 text-lg bg-fourth hover:bg-fourth/70
                text-primary  font-semibold rounded-full px-4 py-1 duration-200">
-                Hire Me !
-              </button>
+                  Hire Me !
+                </button>
               </div>
             </motion.div>
           )}
@@ -131,5 +133,3 @@ function Navbar() {
     </>
   );
 }
-
-export default Navbar;
