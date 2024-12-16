@@ -13,3 +13,31 @@ body {
   background-color: #252c37
 }
 
+
+
+/* Custom keyframe animation for spinning */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+/* Apply the custom spin animation to elements with 'animate-spin' class */
+@layer components {
+  .animate-spin {
+    animation: spin 0.8s linear infinite;
+  }
+}
+
+/* Additional styling for the SVG border */
+.svgBorder {
+  stroke-width: 5px;
+}
+
+/* Additional styling for the container if needed */
+.gradientContainer {
+  position: relative;
+}

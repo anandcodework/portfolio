@@ -16,6 +16,9 @@ export default {
         roboto: ['Roboto', 'sans-serif'],
         openSans: ['Open Sans', 'sans-serif'],
       },
+      screens: {
+        'ls': '1132px',
+      }
       
     },
   },
