@@ -10,7 +10,7 @@ export default {
         "primary": "#252c37",
         "secondary": "#e0e0e0",
         "third": "#fefefe",
-        "fourth": "#00FF9C"
+        "fourth": "#06ff99"
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
