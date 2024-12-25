@@ -33,7 +33,7 @@ export default function ContactPage() {
 
   return (
     <>
-      <div className="py-16 bg-secondary/10 w-screen">
+      <div className="py-16 bg-secondary/10 w-screen font-mono">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl font-bold text-center text-fourth mb-12">Contact Computer Shop</h1>
           <div className="p-6 rounded-lg shadow-lg mb-12 bg-primary/80">
