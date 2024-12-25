@@ -1,16 +1,19 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaDownload } from "react-icons/fa";
 import CountUp from 'react-countup';
+import Resume from './Resume';
+import Service from './Service';
 
 // Importing Google Fonts
 import '@fontsource/roboto';  // Example: Roboto font
 import '@fontsource/open-sans';  // Example: Open Sans font
 import { motion } from 'framer-motion';
 
+
 export default function Hero() {
   return (
-    <section className="text-third w-screen mt-[10vh] md:mt-[5vh] font-mono">
-      <div className="flex flex-col md:flex-row justify-center items-center gap-16 mx-auto md:mx-20">
+    <section className="text-third w-screen  font-mono overflow-y-auto scrollbar-hidden h-[86vh]">
+      <div className="flex flex-col md:flex-row mt-[10vh] md:mt-[5vh] justify-center items-center gap-16 mx-auto md:mx-20">
 
         {/* Text Content */}
         <div className="text-center md:text-left max-w-xl md:max-w-lg">
@@ -18,9 +21,7 @@ export default function Hero() {
           <p className="text-7xl sm:text-3xl font-bold font-serif">Hello, I'm</p>
           <p className="text-7xl font-bold text-fourth font-sans">Anand Maurya</p>
           <p className="text-xl sm:text-lg mt-5 mb-8">
-            Fresher with knowledge in web development and the MERN stack. Skilled in building responsive and
-            user-friendly websites using HTML, CSS, JavaScript, and React. Looking for opportunities to apply my
-            skills and gain professional experience.
+          Web Developer skilled in building responsive websites with the MERN stack. Proficient in HTML, CSS, JavaScript, React, Node.js, and MongoDB. Passionate about creating seamless user experiences and eager to apply and grow my skills in real-world projects.
           </p>
           {/* Button Section */}
       <div className='flex flex-wrap justify-center w-full container gap-5'>
@@ -36,7 +37,7 @@ export default function Hero() {
 
         {/* GitHub Link */}
         <a
-          href="https://github.com/your-github"  // Replace with your GitHub link
+          href=""  // Replace with your GitHub link
           className="text-lg text-third border-2 hover:text-primary border-fourth hover:bg-fourth/70
       font-semibold rounded-full p-4 duration-200 transform hover:scale-105"
         >
@@ -122,7 +123,7 @@ export default function Hero() {
           <div className="text-5xl sm:text-6xl lg:text-7xl font-sans mr-4">
             <CountUp
               start={0}
-              end={0.6}
+              end={2}
               duration={5}
               decimals={1}
             />
@@ -152,13 +153,13 @@ export default function Hero() {
           <div className="text-5xl sm:text-6xl lg:text-7xl font-sans mr-4">
             <CountUp
               start={0}
-              end={8}
+              end={14}
               duration={5}
               decimals={0}
             />
           </div>
           <p className="text-lg sm:text-xl lg:text-2xl font-medium text-justify">
-            Learned <br /> programming languages
+          Technology <br />knowledge
           </p>
         </div>
 
@@ -177,9 +178,9 @@ export default function Hero() {
           </p>
         </div>
       </div>
-
-
-
+      <Service/>
+      <Resume/>
     </section>
+
   );
 }

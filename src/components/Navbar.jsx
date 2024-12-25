@@ -9,9 +9,10 @@ import '@fontsource/open-sans';  // Example: Open Sans font
 export default function Navbar() {
   const NavbarMenu = [
     { id: 1, title: 'Home', link: '/' },
-    { id: 2, title: 'About', link: '/about' },
-    { id: 3, title: 'Skills', link: '/skills' },
-    { id: 4, title: 'Contact', link: '/contact' },
+    { id: 2, title: 'Service', link: '/service' },
+    { id: 3, title: 'Resume', link: '/resume' },
+    { id: 4, title: 'Project', link: '/project' },
+    { id: 5, title: 'Contact', link: '/contact' },
   ];
 
   const [open, setOpen] = useState(false);  // State to toggle the menu visibility
@@ -44,7 +45,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-primary top-0 z-10 w-full shadow-md px-3 font-roboto">
+      <nav className="bg-primary top-0 z-10 w-screen shadow-md px-5 font-roboto">
         <div className="container mx-auto">
           <div className="flex justify-between items-center py-3">
             {/* Logo section */}
@@ -76,10 +77,11 @@ export default function Navbar() {
                 ))}
               </ul>
               {/* Hire Button */}
-              <button className="ml-8 text-md bg-fourth hover:bg-fourth/70
-               text-primary  font-semibold rounded-full px-4 py-1 duration-200">
+              <a className="ml-8 text-md bg-fourth hover:bg-fourth/70
+               text-primary  font-semibold rounded-full px-4 py-1 duration-200"
+               href='/contact'>
                 Hire Me !
-              </button>
+              </a>
             </div>
 
             {/* Mobile Hamburger Menu */}
