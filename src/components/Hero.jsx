@@ -106,7 +106,7 @@ export default function Hero() {
     />
   </motion.svg>
       <img
-        src="src/assets/2.png" // Adjust the image path as needed
+        src="https://media-hosting.imagekit.io//b561fe6961ff44eb/2.png?Expires=1735934579&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=xU4xsoLmtbkjkFpwXHT6BisdFUFPhfdOycqI6JhHfWn-IpucHtgbBWnCUpKYA3P9khFIY2161pWnxHbUyZwUymk4VN3fU6t0x3JS2pBm8VxhjWovENDzRqNOX6HEUDfgxILlhLyyhAbcW~cCkFsIiievUSwwsRbjZJjV7nZwZGixLrRkpdl8FA2W1RfoX4FFz7Feja4WVIpwVunGjDCJK~f9SUx1xhe5qYIl4onVPGF7xnilU1ZsAsBcckqh4SxPIDu5OBAFxrcHr4kg4D1wigBClzUrxhj-VVIG1QBefJR31I1dsYjcu2KraIuZYm3ptYtxoRUgxwmIUkBy--cITg__" // Adjust the image path as needed
         alt="2.png"
         className="object-contain rounded-full w-full h-full"
       />

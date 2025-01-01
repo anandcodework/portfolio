@@ -52,7 +52,7 @@ export default function Navbar() {
             {/* Logo section */}
             <div className="text-xl lg:text-2xl font-bold flex items-center ">
               <Link to="/" className="flex items-center ">
-                <img src="src/assets/1.png" className="rounded-full w-14 h-14 mx-2" alt="logo" />
+                <img src="https://media-hosting.imagekit.io//875530d7f01f407a/1.png?Expires=1735934543&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=w7V7ESI5ZpJJEM9P2-9vHC6Pjw2FE-qB3RyjT~vZcis56R-gJyA6oJ2LP18kRJ21Qz7dz~so5LN-I~tbZPc2RA0KiMniqhuMFgx8b0iGqWmyZv-0hRkozHe3znZRMGp8lXYugnEeGoMv9F864QRp36nGnLPLdjdnOjCjap~lT3~G~cnRY-wu3BT370KokT9HrH8hh33p5ceoDFtsp0sH5GmX5zWdGR-iSa4qBrW53iB02zdRzIFp7DWzSQDW4KdIBqlhV-AwUd1Aei-HuduGMEPV5A5MkorAoL1gl5HfNvV1NrnSVeEhAnoXn1lcNbV2sPcEc3wjV2FBJMNdea9FMQ__" className="rounded-full w-14 h-14 mx-2" alt="logo" />
                 <span className="text-fourth font-mono">
                   {"<anandMaurya/>"}
                 </span>
