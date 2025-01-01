@@ -106,8 +106,8 @@ export default function Hero() {
     />
   </motion.svg>
       <img
-        src="src/assets/ProfileImage.png" // Adjust the image path as needed
-        alt="Anand Maurya Logo"
+        src="src/assets/1.png" // Adjust the image path as needed
+        alt="1.png"
         className="object-contain rounded-full w-full h-full"
       />
     </motion.div>

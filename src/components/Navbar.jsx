@@ -51,7 +51,7 @@ export default function Navbar() {
             {/* Logo section */}
             <div className="text-xl lg:text-2xl font-bold flex items-center ">
               <Link to="/" className="flex items-center ">
-                <img src="src/assets/Anand Logo.png" className="rounded-full w-14 h-14 mx-2" alt="logo" />
+                <img src="src/assets/1.png" className="rounded-full w-14 h-14 mx-2" alt="logo" />
                 <span className="text-fourth font-mono">
                   {"<anandMaurya/>"}
                 </span>
