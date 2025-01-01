@@ -37,7 +37,7 @@ export default function Hero() {
 
         {/* GitHub Link */}
         <a
-          href=""  // Replace with your GitHub link
+          href="https://github.com/anandcodework"  // Replace with your GitHub link
           className="text-lg text-third border-2 hover:text-primary border-fourth hover:bg-fourth/70
       font-semibold rounded-full p-4 duration-200 transform hover:scale-105"
         >
@@ -46,7 +46,7 @@ export default function Hero() {
 
         {/* LinkedIn Link */}
         <a
-          href="https://linkedin.com/in/your-linkedin"  // Replace with your LinkedIn link
+          href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQHY6Ei9kV6QAAAAAZQjJB2I9-_YshrXChS-QIBYYq8R1m90mCbM0kZgZQwh65_8uk5QTGuOue4FSJ7cowG806uUvgFSmSnZyK4R0VskEKmL-a6CEGSljl8xtD-spG2hgRMHkiQ=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fanand-maurya-2aa1a232a%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app"  // Replace with your LinkedIn link
           className="text-lg text-third border-2 hover:text-primary border-fourth hover:bg-fourth/70
       font-semibold rounded-full p-4 duration-200 transform hover:scale-105"
         >
