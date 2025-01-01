@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import '@fontsource/roboto';  // Example: Roboto font
 import '@fontsource/open-sans';  // Example: Open Sans font
 
+
 export default function Navbar() {
   const NavbarMenu = [
     { id: 1, title: 'Home', link: '/' },
