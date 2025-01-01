@@ -11,7 +11,7 @@ export default function Navbar() {
     { id: 1, title: 'Home', link: '/' },
     { id: 2, title: 'Service', link: '/service' },
     { id: 3, title: 'Resume', link: '/resume' },
-    { id: 4, title: 'Project', link: '/project' },
+    // { id: 4, title: 'Project', link: '/project' },
     { id: 5, title: 'Contact', link: '/contact' },
   ];
 

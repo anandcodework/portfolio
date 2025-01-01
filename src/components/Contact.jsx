@@ -48,7 +48,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="py-16 bg-secondary/10 w-full font-mono overflow-y-auto scrollbar-hidden h-auto">
+    <div className="py-16 bg-secondary/10 w-screen font-mono overflow-y-auto scrollbar-hidden h-[86vh]">
       <div className="container mx-auto px-5 sm:px-16 md:px-32">
         <h1 className="text-4xl font-bold text-center text-fourth mb-12">Contact me</h1>
         <div className="p-6 rounded-lg shadow-lg mb-12 bg-primary/80">
@@ -116,9 +116,9 @@ export default function ContactPage() {
                     onChange={handleServiceChange}
                     required
                   >
-                    <option value="">Choose an option</option>
-                    <option value="web-development">Web Development</option>
-                    <option value="app-development">App Development</option>
+                    <option className='bg-primary/60 text-primary' value="">Choose an option</option>
+                    <option className='bg-primary/60 text-primary' value="web-development">Web Development</option>
+                    <option className='bg-primary/60 text-primary' value="app-development">App Development</option>
                   </select>
                 </div>
               </div>
@@ -168,10 +168,10 @@ export default function ContactPage() {
               </div>
 
               <div className="flex flex-col sm:flex-row justify-start items-center gap-5 text-third">
-                <MdLocationOn className="text-fourth bg-third/10 rounded-md p-1 text-6xl" />
-                <div className='text-center'>
+                <MdLocationOn className="text-fourth bg-third/10 p-1 text-6xl rounded-md" />
+                <div>
                   <div className="text-third/70">Address :</div>
-                  <div >Ghatkopar East Mumbai Maharashtra 400075</div>
+                  <div>Ramabai colony Ghatkopar <br className='md;hidden '/> East Mum-75</div>
                 </div>
               </div>
             </div>
